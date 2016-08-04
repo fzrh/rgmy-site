@@ -5,10 +5,11 @@ html
     meta charset="utf-8" /
     meta content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=no" name="viewport" /
     /! Use title if it's in the page YAML frontmatter
-    title = current_page.data.title || 'Middleman'
+    title = current_page.data.title || 'Rails Girls MY'
     link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" rel="stylesheet" /
-    link crossorigin="anonymous" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" rel="stylesheet" /
     = stylesheet_link_tag :site
     = javascript_include_tag :all
-  body.page_classes
-    = yield
+  body.home-template
+    #wrapper
+      .container
+        = yield
