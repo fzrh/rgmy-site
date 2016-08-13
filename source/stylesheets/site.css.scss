@@ -1,6 +1,6 @@
-@charset "utf-8";
-@import "normalize";
-@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+@charset 'utf-8';
+@import 'normalize';
+@import 'https://fonts.googleapis.com/css?family=Montserrat|Poppins';
 
 /* ============================================================ */
 /* Base */
@@ -9,8 +9,28 @@
 body {
   padding-top: 50px;
   padding-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Montserrat', sans-serif;
 }
 
 /* ============================================================ */
 /* Custom */
 /* ============================================================ */
+
+.page {
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+footer {
+  a, a:visited {
+    color: #f03838;
+    border-bottom: 1px grey dotted;
+  }
+  a:hover, a:active {
+    text-decoration: none;
+  }
+}
