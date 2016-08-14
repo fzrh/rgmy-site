@@ -11,38 +11,32 @@
       = image_tag('http://placehold.it/140x140', { class: 'img-circle' })
       h3 Join Our Workshops
       p Our free workshops are tailored to learners without prior experience with programming. Come and join us!
-      = link_to 'View Details', config.url_root, class: 'btn btn-default'
     .col-lg-4
       = image_tag('http://placehold.it/140x140', { class: 'img-circle' })
       h3 Join a Project Group
       p We encourage attendees to join or form a project group to continue learning. Check out the existing groups!
-      = link_to 'View Details', config.url_root, class: 'btn btn-default'
     .col-lg-4
       = image_tag('http://placehold.it/140x140', { class: 'img-circle' })
       h3 Try Ruby Online
       p You can't wait for the next workshop? Get a sneak peek into Ruby and try Ruby online for free.
-      = link_to 'View Details', config.url_root, class: 'btn btn-default'
 .events
   .row
     .col-lg-12
-      h2.text-center Next Rails Girls MY Event
+      h2.text-center Upcoming Events
   .row
     .col-lg-4
       = image_tag('http://placehold.it/400x200', { class: 'img-responsive img-center' })
     .col-lg-8
       p Stay tuned!
       p We run events roughly every six months.
-      p Follow us on Twitter or Facebook to get notified when we open registration for our next event.
+      p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
+      = link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
 .container.sponsors-partners
   .row
     .col-lg-12
       h2.text-center Our Sponsors & Partners
   .row
-    .col-lg-3
-      = image_tag('http://placehold.it/100x100', { class: 'img-responsive img-center' })
-    .col-lg-3
-      = image_tag('http://placehold.it/100x100', { class: 'img-responsive img-center' })
-    .col-lg-3
-      = image_tag('http://placehold.it/100x100', { class: 'img-responsive img-center' })
-    .col-lg-3
-      = image_tag('http://placehold.it/100x100', { class: 'img-responsive img-center' })
+    .col-lg-6.col-lg-offset-3
+      = image_tag('images/sponsors/codeplay.png', { class: 'img-responsive img-center', alt: 'CodePlay' })
+    / .col-lg-3
+    /   = image_tag('images/sponsors/codeplay.png', { class: 'img-responsive img-center', alt: 'CodePlay' })

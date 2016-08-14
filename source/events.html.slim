@@ -3,14 +3,25 @@
     .col-lg-12
       h1.page-header Events
   .row
-    .col-lg-12
+    .col-lg-12.event
       .col-md-4
-        = image_tag('http://placehold.it/400x200', { class: 'img-responsive' })
+        = image_tag('images/rg-kuching.png', { class: 'img-responsive img-200' })
       .col-md-8
-        p.label.label-danger Upcoming Event
-        h3 Rails Girls Kuching
-        h4 Sept 9th - 10th, 2016
-        p During the first days, they went along smoothly enough. The sea was not very unpropitious, the wind seemed stationary in the north-east, the sails were hoisted, and the Henrietta ploughed across the waves like a real trans-Atlantic steamer.
-        .pull-right
+        p.text-rg.text-uppercase Upcoming Event
+        h4 Rails Girls Kuching
+        h5 Sept 9th - 10th, 2016
+        p This workshop is suitable for beginners to coding.
+        = link_to 'http://facebook.com/railsgirlskuching' do
           i.fa.fa-facebook-official.fa-2x.fa-fw aria-hidden='true'
-          i.fa.fa-ticket.fa-2x.fa-fw aria-hidden='true'
+        hr
+    .col-lg-12.event
+      .col-md-4
+        = image_tag('images/rg-kl.png', { class: 'img-responsive img-200' })
+      .col-md-8
+        p.text-rg.text-uppercase Upcoming Event
+        h4 Rails Girls Kuala Lumpur
+        h5 Sept 24th, 2016
+        p This workshop is suitable for beginners to coding.
+        = link_to 'http://facebook.com/railsgirlskl' do
+          i.fa.fa-facebook-official.fa-2x.fa-fw aria-hidden='true'
+        hr
