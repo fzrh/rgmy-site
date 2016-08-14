@@ -34,3 +34,43 @@ footer {
     text-decoration: none;
   }
 }
+
+.img-center {
+	margin: 0 auto;
+}
+
+.padding-10 {
+  padding: 10px;
+}
+
+.marketing {
+  .col-lg-4 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .col-lg-4 p {
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+}
+
+.events {
+  background-color: #F4F4F4;
+  padding: 25px 0 25px 0;
+
+  .col-lg-4 {
+    margin-bottom: 10px;
+  }
+
+  .col-lg-8 p {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.sponsors-partners {
+  .col-lg-12 h2 {
+    margin-bottom: 15px;
+  }
+}
