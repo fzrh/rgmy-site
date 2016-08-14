@@ -31,12 +31,16 @@
       p We run events roughly every six months.
       p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
       = link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
-.container.sponsors-partners
+.container.community-partners
   .row
     .col-lg-12
-      h2.text-center Our Sponsors & Partners
+      h2.text-center Community Partners
   .row
-    .col-lg-6.col-lg-offset-3
-      = image_tag('images/sponsors/codeplay.png', { class: 'img-responsive img-center', alt: 'CodePlay' })
-    / .col-lg-3
-    /   = image_tag('images/sponsors/codeplay.png', { class: 'img-responsive img-center', alt: 'CodePlay' })
+    .col-lg-3
+      = image_tag('images/partners/codeplay.png', { class: 'img-responsive img-center', alt: 'CodePlay' })
+    .col-lg-3
+      = image_tag('images/partners/klxrb.png', { class: 'img-responsive img-center', alt: 'KL Ruby Brigade' })
+    .col-lg-3
+      = image_tag('images/partners/wwckl.png', { class: 'img-responsive img-center', alt: 'Women Who Code KL' })
+    .col-lg-3
+      = image_tag('images/partners/gdgpenang.png', { class: 'img-responsive img-center', alt: 'GDG Penang' })
