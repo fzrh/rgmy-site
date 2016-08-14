@@ -27,9 +27,16 @@ h1, h2, h3, h4, h5, h6 {
   padding-bottom: 25px;
 }
 
+a, a:visited {
+  color: #f03838;
+}
+a:hover, a:active {
+  color: #f03838;
+  text-decoration: underline;
+}
+
 footer {
   a, a:visited {
-    color: #f03838;
     border-bottom: 1px grey dotted;
   }
   a:hover, a:active {
@@ -95,4 +102,12 @@ footer {
 .text-uppercase {
   text-transform: uppercase;
   letter-spacing: 2px;
+}
+
+.fb-link {
+  color: #3b5998;
+}
+
+.in-link {
+  color: #0077b5;
 }
