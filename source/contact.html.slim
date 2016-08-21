@@ -5,7 +5,22 @@
 .container.page.text-justify
   .row
     .col-lg-12
-      h3.page-header Contact
+      h3.page-header Contact Us
+      p Drop a line to say hi!
   .row
-    .col-lg-12
-      p Say hi!
+    .col-lg-6.col-lg-offset-3
+      form#contact-form action='hidden' method='post' role='form'
+        .form-group
+          label for='fieldName' class='control-label' Name
+          input name='name' type='text' class='form-control'
+        .form-group
+          label for='fieldEmailAddress' class='control-label' Email Address
+          input name='_replyto' type='email' class='form-control'
+        .form-group
+          label for='fieldSubject' class='control-label' Subject
+          input name='subject' type='text' class='form-control'
+        .form-group
+          label for='fieldMessage' class='control-label' Message
+          textarea.form-control rows='7' class='form-control'
+        .form-group
+          input type='submit' value='Send' class='btn btn-rg btn-block'
