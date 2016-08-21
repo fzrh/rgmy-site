@@ -5,7 +5,7 @@
 .container.page.text-justify
   .row
     .col-lg-6
-      h4.page-header Why should you get involved?
+      h4.text-rg.page-header Why should you get involved?
       ul
         li Help closing the gender gap in IT and increase the number of women colleagues
         li Enable women to participate in tech not just as a consumer, but also as a creator and maker
@@ -14,13 +14,29 @@
         li Get that overwhelming feeling of seeing other people grow.
       p Contact us #{link_to 'here', 'contact'}.
     .col-lg-6
-      h4.page-header FAQ
+      h4.text-rg.page-header FAQ
       ul
         li Coming soon
   .row
     .col-lg-12
-      h4.page-header What our mentors say
+      h4.text-rg.page-header What our mentors say
     .col-lg-6
-      p Coming
+      .row
+        .col-md-3.text-center
+          = image_tag 'http://placehold.it/100x100', { class: 'img-circle img-responsive img-center' }
+          h5 Your name
+          h6 #{link_to '@twt-handle', 'http://twitter.com/twt-handle'}
+        .col-md-9
+          i.fa.fa-quote-left
+          span.quote Everyone should know how to program a computer, because it teaches you how to think. Everyone should know how to program a computer, because it teaches you how to think.
+          i.fa.fa-quote-right.pull-right
     .col-lg-6
-      p Soon
+      .row
+        .col-md-3.text-center
+          = image_tag 'http://placehold.it/100x100', { class: 'img-circle img-responsive img-center' }
+          h5 Your name
+          h6 #{link_to '@twt-handle', 'http://twitter.com/twt-handle'}
+        .col-md-9
+          i.fa.fa-quote-left
+          span.quote Everyone should know how to program a computer, because it teaches you how to think. Everyone should know how to program a computer, because it teaches you how to think.
+          i.fa.fa-quote-right.pull-right

@@ -20,17 +20,18 @@
       h4 Try Ruby Online
       p You can't wait for the next workshop? Get a sneak peek into Ruby and try Ruby online for free.
 #events
-  .row
-    .col-lg-12.section-title
-      h3.text-center Upcoming Events
-  .row
-    .col-lg-4
-      = image_tag('images/rg-kl.png', { class: 'img-responsive img-center', style: 'height: 200px;' })
-    .col-lg-8
-      p Stay tuned!
-      p We run events roughly every two months.
-      p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
-      .text-center= link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
+  .container
+    .row
+      .col-lg-12.section-title
+        h3.text-center Upcoming Events
+    .row
+      .col-lg-4
+        = image_tag('images/rg-kl.png', { class: 'img-responsive img-center', style: 'height: 200px;' })
+      .col-lg-8
+        p Stay tuned!
+        p We run events roughly every two months.
+        p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
+        .text-center= link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
 .container#partners
   .row
     .col-lg-12.section-title
@@ -45,15 +46,16 @@
     .col-lg-3
       = image_tag('images/partners/gdgpenang.png', { class: 'img-responsive img-center', title: 'GDG Georgetown' })
 #mailing
-  .row.text-center
-    .col-lg-12.section-title
-      h3 Stay in touch!
-      p Sign up for our newsletter and get the latest infos from us. <3
-  .row
-    .container
-      .col-lg-12.text-center
-        form.form-inline
-          .form-group
-            input.form-control.input-lg placeholder='email@email.com' type='email' /
-          .form-group
-            button.btn.btn-default.btn-lg type='submit' Subscribe!
+  .container
+    .row.text-center
+      .col-lg-12.section-title
+        h3 Stay in touch!
+        p Sign up for our newsletter and get the latest infos from us. <3
+    .row
+      .container
+        .col-lg-12.text-center
+          form.form-inline
+            .form-group
+              input.form-control.input-lg placeholder='email@email.com' type='email' /
+            .form-group
+              button.btn.btn-default.btn-lg type='submit' Subscribe!
