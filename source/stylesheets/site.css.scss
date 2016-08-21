@@ -8,7 +8,7 @@
 /* ============================================================ */
 
 body {
-  padding-top: 75px;
+  padding-top: 50px;
   padding-bottom: 20px;
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
@@ -74,7 +74,7 @@ footer {
 }
 
 .img-200 {
-  height: 200px;
+  height: 160px;
   width: 100%;
   border: 1px #efefef solid;
 }
@@ -110,26 +110,4 @@ footer {
 
 .in-link {
   color: #0077b5;
-}
-
-.navbar-header,
-.rg-navbar {
-  background:#d3360b;
-  height:75px;
-}
-
-.rg-navbar-link li a {
-  line-height: 75px;
-  height: 75px;
-  padding-top: 0;
-  margin: auto;
-}
-
-ul {
-  a, a:visited {
-    color: #ffffff !important;
-  }
-  a:hover, a:active {
-    text-decoration: underline !important;
-  }
 }

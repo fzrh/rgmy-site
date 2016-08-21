@@ -1,4 +1,4 @@
-nav.navbar.navbar-default.navbar-fixed-top.rg-navbar
+nav.navbar.navbar-default.navbar-fixed-top
   .container
     .navbar-header
       button.navbar-toggle.collapsed aria-controls='navbar' aria-expanded='false' data-target='#navbar' data-toggle='collapse' type='button'
@@ -6,10 +6,9 @@ nav.navbar.navbar-default.navbar-fixed-top.rg-navbar
         span.icon-bar
         span.icon-bar
         span.icon-bar
-      = link_to 'index.html', class: 'navbar-brand' do
-        = image_tag 'images/rgmy-logo.png', height: 45
+      = link_to 'Rails Girls MY', 'index.html', class: 'navbar-brand'
     #navbar.navbar-collapse.collapse
-      ul.nav.navbar-nav.navbar-right.rg-navbar-link
+      ul.nav.navbar-nav.navbar-right
         li= link_to 'About', 'about'
         li= link_to 'Team', 'team'
         li= link_to 'Events', 'events'
