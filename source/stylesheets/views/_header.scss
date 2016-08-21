@@ -10,3 +10,16 @@
     color: #ffffff !important;
   }
 }
+
+.navbar-default .navbar-toggle {
+  border-color: #ffffff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+  background-color: #f35959;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  border-color: #ffffff;
+  background-color: #ffffff;
+}
