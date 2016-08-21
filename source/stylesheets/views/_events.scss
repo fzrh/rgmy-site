@@ -1,9 +1,20 @@
 .events {
+  padding-top: 30px;
   padding-bottom: 5px;
 
   .img-200 {
     height: 200px;
     width: 100%;
     border: 1px #efefef solid;
+  }
+
+  .event-info {
+    border: 1px #efefef solid;
+    padding: 5px 10px;
+  }
+
+  .event-social {
+    padding-top: 10px;
+    text-align: right;
   }
 }

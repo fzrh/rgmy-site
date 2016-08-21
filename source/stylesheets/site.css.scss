@@ -4,6 +4,7 @@
 @import 'views/header';
 @import 'views/footer';
 @import 'views/events';
+@import 'views/page';
 
 /* ============================================================ */
 /* Base */
@@ -107,10 +108,14 @@ a:hover, a:active {
   letter-spacing: 2px;
 }
 
-.fb-link {
+.fb-link, .fb-link:visited {
   color: #3b5998;
 }
 
-.in-link {
+.in-link, .in-link:visited {
   color: #0077b5;
+}
+
+.fb-link:hover, .in-link:hover {
+  color: #f03838;
 }

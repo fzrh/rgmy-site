@@ -1,27 +1,40 @@
+.rg-content-header
+  .container
+    h1 Events
+    p Do a little more of what you want to do every day, until your idea becomes what's real.
 .container.page.text-justify
   .row
     .col-lg-12
-      h1.page-header Events
+      h3.page-header Upcoming Events
+      p All Rails Girls events are organized by a team of extraordinary volunteers, from all kinds of different backgrounds. Are we missing an awesome city? Suggest your hometown if you want to start a chapter. 
   .row
     .col-lg-12.events
       .col-md-4
-        = image_tag('images/rg-kuching.png', { class: 'img-responsive img-200' })
-      .col-md-8
-        p.text-rg.text-uppercase Upcoming Event
-        h4 Rails Girls Kuching
-        h5 Sept 9th - 10th, 2016
-        p This workshop is suitable for beginners to coding.
-        = link_to 'http://facebook.com/railsgirlskuching', class: 'fb-link' do
-          i.fa.fa-facebook-official.fa-2x.fa-fw aria-hidden='true'
-        hr
-    .col-lg-12.event
+        = link_to 'http://railsgirls.com/kuching', target: '_blank', title: 'Rails Girls Kuching' do
+          = image_tag 'images/rg-kuching.png', { class: 'img-responsive img-200' }
+        .event-info
+          span.pull-right.event-social
+            = link_to 'http://facebook.com/railsgirlskuching', target: '_blank', class: 'fb-link' do
+              i.fa.fa-facebook-official.fa-lg.fa-fw aria-hidden='true'
+          .span
+            h5.text-rg Kuching
+          h6 Sept 9th - 10th, 2016
       .col-md-4
-        = image_tag('images/rg-kl.png', { class: 'img-responsive img-200' })
-      .col-md-8
-        p.text-rg.text-uppercase Upcoming Event
-        h4 Rails Girls Kuala Lumpur
-        h5 Sept 24th, 2016
-        p This workshop is suitable for beginners to coding.
-        = link_to 'http://facebook.com/railsgirlskl', class: 'fb-link' do
-          i.fa.fa-facebook-official.fa-2x.fa-fw aria-hidden='true'
-        hr
+        = link_to 'http://railsgirls.com/kl', target: '_blank', title: 'Rails Girls KL' do
+          = image_tag 'images/rg-kl.png', { class: 'img-responsive img-200' }
+        .event-info
+          span.pull-right.event-social
+            = link_to 'http://facebook.com/railsgirlskl', target: '_blank', class: 'fb-link' do
+              i.fa.fa-facebook-official.fa-lg.fa-fw aria-hidden='true'
+          span
+            h5.text-rg Kuala Lumpur
+          h6 Sept 24th, 2016
+      .col-md-4
+        = image_tag 'http://placehold.it/200x300', { class: 'img-responsive img-200' }
+        .event-info
+          span.pull-right.event-social
+            = link_to 'http://facebook.com/railsgirlskl', target: '_blank', class: 'fb-link' do
+              i.fa.fa-facebook-official.fa-lg.fa-fw aria-hidden='true'
+          span
+            h5.text-rg Your City
+          h6 Organize Today
