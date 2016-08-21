@@ -4,7 +4,7 @@
     p Making technology more approachable for women
 .container#marketing
   .row
-    .col-lg-12
+    .col-lg-12.section-title
       h2.text-center What We Do
   .row
     .col-lg-4
@@ -21,19 +21,19 @@
       p You can't wait for the next workshop? Get a sneak peek into Ruby and try Ruby online for free.
 #events
   .row
-    .col-lg-12
+    .col-lg-12.section-title
       h2.text-center Upcoming Events
   .row
     .col-lg-4
-      = image_tag('http://placehold.it/400x200', { class: 'img-responsive img-center' })
+      = image_tag('images/rg-kl.png', { class: 'img-responsive img-center', style: 'height: 200px;' })
     .col-lg-8
       p Stay tuned!
-      p We run events roughly every six months.
+      p We run events roughly every two months.
       p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
       = link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
 .container#partners
   .row
-    .col-lg-12
+    .col-lg-12.section-title
       h2.text-center Community Partners
   .row
     .col-lg-3

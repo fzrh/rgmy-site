@@ -35,15 +35,6 @@ h1, h2, h3, h4, h5, h6 {
   }
 }
 
-#partners {
-  .col-lg-12 h2 {
-    margin-bottom: 15px;
-  }
-  .col-lg-3 {
-    margin-bottom: 15px;
-  }
-}
-
 #events {
   background-color: #F4F4F4;
   padding: 25px 0 25px 0;
@@ -55,6 +46,15 @@ h1, h2, h3, h4, h5, h6 {
   .col-lg-8 p, .btn-rg {
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+#partners {
+  .col-lg-12 h2 {
+    margin-bottom: 20px;
+  }
+  .col-lg-3 {
+    margin-bottom: 20px;
   }
 }
 
@@ -118,6 +118,11 @@ a:hover, a:active {
 
 .fb-link:hover, .in-link:hover {
   color: #f03838;
+}
+
+.section-title {
+  padding-top: 10px;
+  padding-bottom: 25px;
 }
 
 /* ============================================================ */
