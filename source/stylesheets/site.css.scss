@@ -5,6 +5,7 @@
 @import 'views/footer';
 @import 'views/events';
 @import 'views/page';
+@import 'views/media';
 
 /* ============================================================ */
 /* Base */
@@ -137,6 +138,7 @@ a:hover, a:active {
   background-image: url('../images/rgkl-group-picture.jpg');
   background-size: 100% 100%;
   background-repeat: no-repeat;
-  min-height: 500px;
+  height: 500px;
+  width: 100%;
   color: #ffffff;
 }
