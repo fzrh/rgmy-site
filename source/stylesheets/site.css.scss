@@ -119,3 +119,15 @@ a:hover, a:active {
 .fb-link:hover, .in-link:hover {
   color: #f03838;
 }
+
+/* ============================================================ */
+/* Jumbotron Image; */
+/* ============================================================ */
+
+.jumbotron {
+  background-image: url('../images/rgkl-group-picture.jpg');
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  min-height: 500px;
+  color: #ffffff;
+}
