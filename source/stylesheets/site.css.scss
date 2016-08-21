@@ -163,7 +163,7 @@ a:hover, a:active {
 
 .jumbotron {
   position: relative;
-  background: linear-gradient(to bottom, #333333, transparent), url('../images/rgkl-group-picture.jpg') center center no-repeat;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/rgkl-group-picture.jpg') center center no-repeat;
   width: 100%;
   background-size: cover;
   overflow: hidden;
