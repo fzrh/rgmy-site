@@ -1,5 +1,8 @@
-hr
-footer
-  .text-center
-    p= link_to 'RailsGirlsMY', 'http://railsgirls.my/'
-    p= link_to 'Code Of Conduct', 'code-of-conduct'
+footer.footer
+  .container
+    ul.list-inline
+      li= link_to 'Github', 'http://github.com/railsgirlsmy', title: 'RGMY Github'
+      li= link_to 'Facebook', config.facebook_url, title: 'RGMY Facebook'
+      li= link_to 'Twitter', config.twitter_url, title: 'RGMY Twitter'
+    p Built with all the love in the world by #{link_to '@frism_', 'http://twitter.com/frism_'}. Maintained by the #{link_to 'core team', 'team'} with the help of #{link_to 'our mentors', 'team'}.
+    p #{link_to 'Code of Conduct', 'code-of-conduct', title: 'RGMY Code of Conduct'}

@@ -1,8 +1,25 @@
 footer {
+  display: block;
+
   a, a:visited {
     border-bottom: 1px grey dotted;
   }
   a:hover, a:active {
     text-decoration: none;
   }
+
+  ul {
+    display: block;
+    list-style-type: disc;
+  }
+}
+
+.footer {
+  background-color: #eeeeee;
+  color: #666666;
+  text-align: left;
+  margin-top: 100px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-size: 14px;
 }
