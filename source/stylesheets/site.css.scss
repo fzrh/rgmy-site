@@ -156,11 +156,12 @@ a:hover, a:active {
 /* ============================================================ */
 
 .jumbotron {
-  background: linear-gradient(to bottom, #333333, transparent), url('../images/rgkl-group-picture.jpg') no-repeat center;
-  background-size: 100% 100%;
-  background-repeat: no-repeat;
-  height: 500px;
+  position: relative;
+  background: linear-gradient(to bottom, #333333, transparent), url('../images/rgkl-group-picture.jpg') center center no-repeat;
   width: 100%;
+  background-size: cover;
+  overflow: hidden;
+  height: 550px;
   color: #ffffff;
 }
 
