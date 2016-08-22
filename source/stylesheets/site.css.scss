@@ -118,7 +118,18 @@ a:hover, a:active {
 .btn-rg:hover {
   background-color: #d3360b;
   border: 0px;
-  color: #fff;
+  color: #ffffff;
+}
+
+.btn-rg-outline {
+  background-color: #d3360b;
+  border: 2px solid white;
+  color: #ffffff;
+}
+
+.btn-rg-outline:hover {
+  background-color: white;
+  color: #d3360b;
 }
 
 .text-rg {
