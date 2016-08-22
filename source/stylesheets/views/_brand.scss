@@ -1,0 +1,33 @@
+.btn-rg {
+  background: none;
+  border: 1px #d3360b solid;
+  border-radius: 5px;
+  color: #d3360b;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: bolder;
+}
+
+.btn-rg:hover {
+  background-color: #d3360b;
+  border: 0px;
+  color: #ffffff;
+}
+
+.btn-rg-outline,
+.btn-rg-outline-2 {
+  background-color: #d3360b;
+  border: 2px solid #ffffff;
+  color: #ffffff;
+}
+
+.btn-rg-outline:hover {
+  background-color: #ffffff;
+  color: #d3360b;
+}
+
+.btn-rg-outline-2:hover {
+  background-color: transparent;
+  border: 2px solid #d3360b;
+  color: #d3360b;
+}

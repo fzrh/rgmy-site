@@ -6,6 +6,7 @@
 @import 'views/events';
 @import 'views/page';
 @import 'views/media';
+@import 'views/brand';
 
 /* ============================================================ */
 /* Base */
@@ -105,33 +106,6 @@ a:hover, a:active {
   padding: 10px;
 }
 
-.btn-rg {
-  background: none;
-  border: 1px #d3360b solid;
-  border-radius: 5px;
-  color: #d3360b;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-weight: bolder;
-}
-
-.btn-rg:hover {
-  background-color: #d3360b;
-  border: 0px;
-  color: #ffffff;
-}
-
-.btn-rg-outline {
-  background-color: #d3360b;
-  border: 2px solid white;
-  color: #ffffff;
-}
-
-.btn-rg-outline:hover {
-  background-color: white;
-  color: #d3360b;
-}
-
 .text-rg {
   color: #d3360b;
 }
@@ -201,4 +175,13 @@ a:hover, a:active {
     background-color: #f35959;
     color: white;
   }
+}
+
+/* ============================================================ */
+/* Newsletter; */
+/* ============================================================ */
+
+.form-input-width {
+  width: 450px !important;
+  margin-right: 10px;
 }
