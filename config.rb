@@ -1,5 +1,5 @@
 set :url_root, 'http://railsgirls.my/'
-set :blog_url, 'http://rgmyblog.herokuapp.com/'
+set :blog_url, 'http://blog.railsgirls.my/'
 set :facebook_url, 'http://facebook.com/railsgirlskl'
 set :twitter_url, 'http://twitter.com/railsgirlskl'
 
