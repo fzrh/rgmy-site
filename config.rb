@@ -2,6 +2,7 @@ set :url_root, 'http://railsgirls.my/'
 set :blog_url, 'http://blog.railsgirls.my/'
 set :facebook_url, 'http://facebook.com/railsgirlskl'
 set :twitter_url, 'http://twitter.com/railsgirlskl'
+set :resources_url, 'http://railsgirlsmy.github.io/'
 
 
 set :css_dir, 'stylesheets'
