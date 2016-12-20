@@ -6,13 +6,12 @@
   .container
     .row
       .col-lg-12.section-title
-        h3.text-center Upcoming Events
+        h3 Upcoming Events
     .row
       .col-lg-4
         = image_tag('images/rg-kl.png', { class: 'img-responsive img-center', style: 'height: 200px;' })
-      .col-lg-8
-        p Stay tuned!
-        p We run events roughly every two months.
+      .col-lg-8.text-center
+        p Join our Rails Girls KL workshop on the 21st January 2017
         p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
         .text-center= link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
 #mailing
