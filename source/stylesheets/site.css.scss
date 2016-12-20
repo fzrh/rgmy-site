@@ -154,6 +154,7 @@ a:hover, a:active {
   overflow: hidden;
   height: 550px;
   color: #ffffff;
+  margin-bottom: 0px;
 }
 
 /* ============================================================ */
@@ -184,4 +185,13 @@ a:hover, a:active {
 .form-input-width {
   // width: 350px !important;
   margin-right: 10px;
+}
+
+/* ============================================================ */
+/* Custom; */
+/* ============================================================ */
+
+.text-bold {
+  font-weight: bolder;
+  font-family: 'Montserrat', sans-serif;
 }

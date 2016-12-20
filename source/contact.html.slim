@@ -9,19 +9,20 @@
       p Drop a line to say hi!
   .row
     .col-lg-6
-      form#contact-form action='hidden' method='post' role='form'
-        .form-group
-          label for='fieldName' class='control-label' Name
-          input name='name' type='text' class='form-control'
-        .form-group
-          label for='fieldEmailAddress' class='control-label' Email Address
-          input name='_replyto' type='email' class='form-control'
-        .form-group
-          label for='fieldSubject' class='control-label' Subject
-          input name='subject' type='text' class='form-control'
-    .col-lg-6
-      .form-group
-        label for='fieldMessage' class='control-label' Message
-        textarea.form-control rows='6' class='form-control'
-      .form-group
-        input type='submit' value='Send' class='btn btn-rg-outline-2 btn-block'
+      p Find us on #{link_to 'Facebook', 'http://facebook.com/railsgirlskl'}, or contact us #{mail_to 'hello@railsgirls.my', 'via email'}!
+    /   form#contact-form action='hidden' method='post' role='form'
+    /     .form-group
+    /       label for='fieldName' class='control-label' Name
+    /       input name='name' type='text' class='form-control'
+    /     .form-group
+    /       label for='fieldEmailAddress' class='control-label' Email Address
+    /       input name='_replyto' type='email' class='form-control'
+    /     .form-group
+    /       label for='fieldSubject' class='control-label' Subject
+    /       input name='subject' type='text' class='form-control'
+    / .col-lg-6
+    /   .form-group
+    /     label for='fieldMessage' class='control-label' Message
+    /     textarea.form-control rows='6' class='form-control'
+    /   .form-group
+    /     input type='submit' value='Send' class='btn btn-rg-outline-2 btn-block'
