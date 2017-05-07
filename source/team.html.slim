@@ -1,65 +1,44 @@
-.rg-content-header
-  .container
-    h1 Team
-    p Do a little more of what you want to do every day, until your idea becomes what's real.
-.container.page
-  .row
-    .col-lg-12
-      h3.page-header Team
-    .col-lg-4.col-sm-6.text-center
-      = image_tag 'images/team/faezrah.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' }
-      h4.text-rg Faezrah Rizalman
-      h5 Rails Girls KL
+.page
+  h1.page-header Team
+  
+  .row 
+    .col-lg-3.col-sm-6.text-center
+      = image_tag 'images/team/faezrah.jpg', { class: 'img-circle img-responsive img-center img-profile auto-margin' }
+      h5 Faezrah Rizalman
+      h6 Rails Girls KL
       = link_to 'https://linkedin.com/in/frizalman', target: '_blank', class: 'in-link' do
         i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag 'images/team/jeannette.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' }
-      h4.text-rg Jeannette Goon
-      h5 Rails Girls KL
+    .col-lg-3.col-sm-6.text-center
+      = image_tag 'images/team/jeannette.jpg', { class: 'img-circle img-responsive img-center img-profile auto-margin' }
+      h5 Jeannette Goon
+      h6 Rails Girls KL
       = link_to 'https://linkedin.com/in/jeannettegoon', target: '_blank', class: 'in-link' do
         i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag 'images/team/chandima.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' }
-      h4.text-rg Chandima Wijendra
-      h5 Rails Girls Kuching
+    .col-lg-3.col-sm-6.text-center
+      = image_tag('images/team/ei-vonne.jpg', { class: 'img-circle img-responsive img-center img-profile auto-margin' })
+      h5 Ei-vonne Kwan
+      h6 Rails Girls KL
+      = link_to 'https://linkedin.com/in/ei-vonne-kwan-a71a536a', target: '_blank', class: 'in-link' do
+        i.fa.fa-linkedin-square.fa-lg aria-hidden='true' 
+    .col-lg-3.col-sm-6.text-center
+      = image_tag 'images/team/chandima.jpg', { class: 'img-circle img-responsive img-center img-profile auto-margin' }
+      h5 Chandima Wijendra
+      h6 Rails Girls Kuching
       = link_to 'https://linkedin.com/in/chandimaw', target: '_blank', class: 'in-link' do
         i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
+
   .row
-    .col-lg-12
-      h3.page-header Our Mentors
-      p Rails Girls MY wouldn’t exist without these people. If you are interested in mentoring, check out the get involved section and contact us.
-    .col-lg-4.col-sm-6.text-center
-      = image_tag('images/team/ei-vonne.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' })
-      h4.text-rg Ei-vonne Kwan
-      = link_to 'https://linkedin.com/in/ei-vonne-kwan-a71a536a', target: '_blank', class: 'in-link' do
+    .col-lg-12.text-justify
+      h4.page-header Previous Organizers
+    .col-lg-6.col-sm-6.text-center
+      = image_tag 'images/ruby-100.png', { class: 'img-circle img-responsive img-center auto-margin' }
+      h5 Sher Minn Chong
+      h6 Rails Girls KL
+      = link_to 'https://linkedin.com/', target: '_blank', class: 'in-link' do
         i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag('images/team/shaii.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' })
-      h4.text-rg Shaii Ong
-      = link_to 'https://linkedin.com/in/shaii-ong-1ba83880', target: '_blank', class: 'in-link' do
-        i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag 'images/team/jellene.jpg', { class: 'img-circle img-responsive img-center img-profile img-profile padding-10' }
-      h4.text-rg Jellene Khoh
-      = link_to 'https://linkedin.com/in/jellene-khoh-297571a3', target: '_blank', class: 'in-link' do
-        i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag('images/team/junxian.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' })
-      h4.text-rg Jun Xian Lim
-      = link_to 'https://linkedin.com/in/junxianlim', target: '_blank', class: 'in-link' do
-        i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag('images/team/zul.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' })
-      h4.text-rg Zulhilmi Zainudin
-      = link_to 'https://my.linkedin.com/in/zulhilmizainudin', target: '_blank', class: 'in-link' do
-        i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag('images/team/fadil.jpg', { class: 'img-circle img-responsive img-center img-profile padding-10' })
-      h4.text-rg Mohamad Fadil
-      = link_to 'https://my.linkedin.com/in/fadilparves', target: '_blank', class: 'in-link' do
-        i.fa.fa-linkedin-square.fa-lg aria-hidden='true'
-    .col-lg-4.col-sm-6.text-center
-      = image_tag('images/team/hassanin.jpeg', { class: 'img-circle img-responsive img-center img-profile padding-10' })
-      h4.text-rg Hassanin Ahmed
-      = link_to 'https://linkedin.com/in/hassanin', target: '_blank', class: 'in-link' do
+    .col-lg-6.col-sm-6.text-center
+      = image_tag 'images/ruby-100.png', { class: 'img-circle img-responsive img-center auto-margin' }
+      h5 Wunmin Wong
+      h6 Rails Girls KL
+      = link_to 'https://linkedin.com/', target: '_blank', class: 'in-link' do
         i.fa.fa-linkedin-square.fa-lg aria-hidden='true'

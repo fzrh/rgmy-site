@@ -1,0 +1,25 @@
+.jumbotron
+  .container.text-center
+    h1 Rails Girls MY
+    h2 Making technology more approachable for women
+#events
+  .container
+    .row
+      .col-lg-12.section-title
+        h3 Upcoming Events
+    .row
+      .col-lg-4
+        = image_tag('images/rg-kl.png', { class: 'img-responsive img-center', style: 'height: 200px;' })
+      .col-lg-8.text-center
+        p Join our Rails Girls KL workshop on the 21st January 2017
+        p Follow us on #{link_to 'Twitter', config.twitter_url} or #{link_to 'Facebook', config.facebook_url} to get notified when we open registration for our next event.
+        .text-center= link_to 'Events', 'events', class: 'btn btn-rg btn-lg'
+#mailing
+  .container
+    .row.text-center
+      .col-lg-12.section-title
+        h3 Stay in touch!
+        p Sign up for our newsletter and get the latest infos from us. <3
+    .row
+      .col-lg-12.text-center
+        = partial 'partials/newsletter.slim'

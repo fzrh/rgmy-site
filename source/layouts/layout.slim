@@ -12,6 +12,7 @@ html
     = stylesheet_link_tag :site
     = javascript_include_tag :all
   body
-    = partial "partials/header.slim"
-    = yield
-    = partial "partials/footer.slim"
+    .container
+      = partial "partials/header.slim"
+      = yield
+      = partial "partials/footer.slim"
